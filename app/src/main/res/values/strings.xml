@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Aplicación -->
+    <string name="app_name">AprendeApp</string>
+    <string name="app_description">Tu espacio de aprendizaje</string>
+
+    <!-- Acciones generales -->
+    <string name="action_login">Iniciar sesión</string>
+    <string name="action_register">Crear cuenta</string>
+    <string name="action_logout">Cerrar sesión</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_retry">Reintentar</string>
+    <string name="action_back">Volver</string>
+
+    <!-- Inicio de sesión -->
+    <string name="login_title">Bienvenido de nuevo</string>
+    <string name="login_subtitle">Continúa con tu aprendizaje</string>
+    <string name="login_email_label">Correo electrónico</string>
+    <string name="login_password_label">Contraseña</string>
+    <string name="login_email_hint">Ingresa tu correo</string>
+    <string name="login_password_hint">Ingresa tu contraseña</string>
+    <string name="login_no_account">¿Aún no tienes una cuenta?</string>
+
+    <!-- Registro -->
+    <string name="register_title">Crea tu cuenta</string>
+    <string name="register_name_label">Nombre completo</string>
+    <string name="register_name_hint">Ingresa tu nombre</string>
+    <string name="register_confirm_password">Confirmar contraseña</string>
+    <string name="register_role_label">Tipo de usuario</string>
+    <string name="role_student">Estudiante</string>
+    <string name="role_teacher">Docente</string>
+
+    <!-- Recursos -->
+    <string name="resources_title">Explora recursos</string>
+    <string name="resources_search_hint">Buscar por título, ID o tipo</string>
+    <string name="resources_empty">No hay recursos disponibles</string>
+    <string name="resources_error">No se pudieron cargar los recursos</string>
+    <string name="resources_loading">Cargando recursos…</string>
+    <string name="resources_filter">Filtrar por tipo</string>
+    <string name="resources_sort">Ordenar recursos</string>
+
+    <!-- Favoritos -->
+    <string name="favorites_title">Mis favoritos</string>
+    <string name="favorites_empty">Todavía no tienes favoritos</string>
+    <string name="favorite_add">Agregar a favoritos</string>
+    <string name="favorite_remove">Quitar de favoritos</string>
+
+    <!-- Calificaciones -->
+    <string name="rating_title">Califica este recurso</string>
+    <string name="rating_value">%1$d de 5 estrellas</string>
+    <string name="rating_average">Calificación promedio: %1$.1f</string>
+
+    <!-- Administración -->
+    <string name="admin_title">Administrar recursos</string>
+    <string name="admin_add_resource">Agregar recurso</string>
+    <string name="admin_edit_resource">Editar recurso</string>
+    <string name="admin_delete_confirmation">¿Deseas eliminar este recurso?</string>
+
+    <!-- Formularios -->
+    <string name="resource_title_label">Título</string>
+    <string name="resource_description_label">Descripción</string>
+    <string name="resource_type_label">Tipo de recurso</string>
+    <string name="resource_link_label">Enlace</string>
+    <string name="resource_image_label">URL de la imagen</string>
+
+    <!-- Mensajes -->
+    <string name="message_operation_success">Operación realizada correctamente</string>
+    <string name="message_unexpected_error">Ocurrió un error inesperado</string>
+    <string name="message_invalid_email">Ingresa un correo válido</string>
+    <string name="message_password_mismatch">Las contraseñas no coinciden</string>
+    <string name="message_confirm_delete">Confirmar eliminación</string>
+
+</resources>
