@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Textos y etiquetas de interfaz de usuario (i18n) -->
 
-    <!-- Aplicación -->
+    <!-- Información de la Aplicación -->
     <string name="app_name">AprendeApp</string>
     <string name="app_description">Tu espacio de aprendizaje</string>
 

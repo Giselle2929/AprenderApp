@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Definición de la paleta de colores global de la aplicación -->
 
-    <!-- Colores principales -->
+    <!-- Colores de marca y énfasis -->
     <color name="color_primary">#245B64</color>
     <color name="color_primary_dark">#19434A</color>
     <color name="color_on_primary">#FFFFFF</color>
