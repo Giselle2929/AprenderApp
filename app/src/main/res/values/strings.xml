@@ -6,6 +6,15 @@
     <string name="app_name">AprendeApp</string>
     <string name="app_description">Tu espacio de aprendizaje</string>
 
+    <!-- Pantalla de Bienvenida -->
+    <string name="welcome_eyebrow">TU ESPACIO DE APRENDIZAJE</string>
+    <string name="welcome_title">Aprende algo nuevo cada día.</string>
+    <string name="welcome_description">Descubre libros, videos y recursos que impulsan tu crecimiento profesional.</string>
+    <string name="welcome_button_login">Iniciar sesión</string>
+    <string name="welcome_button_register">Crear una cuenta</string>
+    <string name="welcome_footer">Aprender abre nuevas posibilidades.</string>
+    <string name="welcome_illustration_description">Ilustración de libros de estudio</string>
+
     <!-- Acciones generales -->
     <string name="action_login">Iniciar sesión</string>
     <string name="action_register">Crear cuenta</string>
