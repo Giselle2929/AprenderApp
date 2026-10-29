@@ -28,6 +28,7 @@
     <string name="action_back">Volver</string>
 
     <!-- Inicio de sesión -->
+    <string name="login_eyebrow">APRENDEAPP / ACCESO</string>
     <string name="login_title">Bienvenido de nuevo</string>
     <string name="login_subtitle">Continúa con tu aprendizaje</string>
     <string name="login_email_label">Correo electrónico</string>
@@ -84,5 +85,11 @@
     <string name="message_invalid_email">Ingresa un correo válido</string>
     <string name="message_password_mismatch">Las contraseñas no coinciden</string>
     <string name="message_confirm_delete">Confirmar eliminación</string>
+
+    <!-- Errores y Estados de Formulario -->
+    <string name="error_email_required">Ingresa tu correo electrónico.</string>
+    <string name="error_email_invalid">Ingresa un correo electrónico válido.</string>
+    <string name="error_password_required">Ingresa tu contraseña.</string>
+    <string name="login_pending">La autenticación estará disponible al conectar el servicio.</string>
 
 </resources>

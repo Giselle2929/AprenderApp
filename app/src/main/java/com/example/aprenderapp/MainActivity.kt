@@ -1,8 +1,10 @@
-package com.example.aprendeapp
+package com.example.aprenderapp
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.aprenderapp.view.LoginActivity
+import com.example.aprenderapp.view.RegistroActivity
 import com.google.android.material.button.MaterialButton
 
 class MainActivity : AppCompatActivity() {
