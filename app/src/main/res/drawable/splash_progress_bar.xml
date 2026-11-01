@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Fondo con efecto de cristal oscuro -->
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="20dp" />
+            <solid android:color="#26FFFFFF" />
+            <stroke android:width="2dp" android:color="#1AFFFFFF" />
+        </shape>
+    </item>
+
+    <!-- Progreso con degradado Neón y "Vida" -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="20dp" />
+                <gradient
+                    android:startColor="#00D1FF"
+                    android:centerColor="#A000FF"
+                    android:endColor="#F8B31C"
+                    android:angle="0" />
+                <!-- Brillo interno para efecto 3D -->
+                <stroke android:width="2dp" android:color="#80FFFFFF" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>
