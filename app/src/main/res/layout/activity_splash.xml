@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background">
+
+    <!-- Brillo sutil detras del logo -->
+    <View
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/bg_welcome_illustration"
+        android:alpha="0.3"
+        app:layout_constraintBottom_toBottomOf="@id/ivSplashLogo"
+        app:layout_constraintEnd_toEndOf="@id/ivSplashLogo"
+        app:layout_constraintStart_toStartOf="@id/ivSplashLogo"
+        app:layout_constraintTop_toTopOf="@id/ivSplashLogo" />
+
+    <ImageView
+        android:id="@+id/ivSplashLogo"
+        android:layout_width="294dp"
+        android:layout_height="232dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35" />
+
+    <TextView
+        android:id="@+id/tvSplashTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/app_name"
+        android:textColor="@color/color_on_primary"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.05"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivSplashLogo" />
+
+    <TextView
+        android:id="@+id/tvSplashSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/welcome_footer"
+        android:textColor="@color/color_on_primary"
+        android:alpha="0.9"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSplashTitle" />
+
+    <ProgressBar
+        android:id="@+id/pbSplash"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="300dp"
+        android:layout_height="16dp"
+        android:layout_marginBottom="100dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="0"
+        android:progressDrawable="@drawable/splash_progress_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Texto de carga -->
+    <TextView
+        android:id="@+id/tvSplashLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/splash_loading"
+        android:textColor="@color/color_on_primary"
+        android:textSize="12sp"
+        android:alpha="0.7"
+        app:layout_constraintBottom_toTopOf="@id/pbSplash"
+        app:layout_constraintEnd_toEndOf="@id/pbSplash"
+        app:layout_constraintStart_toStartOf="@id/pbSplash" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
