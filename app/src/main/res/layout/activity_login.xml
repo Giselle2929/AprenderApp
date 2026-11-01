@@ -68,6 +68,7 @@
             android:inputType="textEmailAddress"
             android:imeOptions="actionNext"
             android:autofillHints="emailAddress"
+            android:textColor="@color/color_text_primary"
             android:maxLines="1" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -96,6 +97,7 @@
             android:inputType="textPassword"
             android:imeOptions="actionDone"
             android:autofillHints="password"
+            android:textColor="@color/color_text_primary"
             android:maxLines="1" />
 
     </com.google.android.material.textfield.TextInputLayout>
