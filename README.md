@@ -2,6 +2,15 @@
 
 **AprendeApp** es una plataforma educativa móvil desarrollada en Kotlin siguiendo el patrón de diseño **MVC (Modelo-Vista-Controlador)**. La aplicación permite gestionar recursos académicos de forma eficiente, diferenciando las capacidades del usuario según su rol (Estudiante o Docente).
 
+---
+
+### 📥 Descarga la Aplicación
+Puedes descargar la última versión ejecutable (APK) directamente desde aquí:
+
+[![Descargar APK](https://img.shields.io/badge/Descargar-APK-brightgreen?style=for-the-badge&logo=android)](https://github.com/Giselle2929/AprenderApp/raw/main/app/build/outputs/apk/debug/app-debug.apk)
+
+---
+
 ## 🚀 Características Principales
 
 ### 1. Autenticación Segura y Roles
