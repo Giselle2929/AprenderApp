@@ -43,19 +43,7 @@ Puedes descargar la última versión ejecutable (APK) directamente desde aquí:
 *   **Imágenes**: Glide
 *   **UI**: Material Components & Android Jetpack
 
-## 📋 Requisitos del Proyecto
-Este proyecto cumple con los criterios de evaluación del **Tercer Desafío Práctico - DSM**:
-- Registro y Login (10%)
-- Validación de Contraseña Segura (10%)
-- Sistema de Roles (10%)
-- CRUD Completo Docente (25%)
-- Búsqueda y Ordenamiento (10%)
-- Persistencia de Favoritos y Rating (15%)
-- Calidad de UI/UX (10%)
-- Puntualidad (10%)
-
-## ✒️ Autores
-*   **Gisselle** - *Desarrollo y Diseño*
+## 📋 video https://drive.google.com/file/d/1RSa8ciBVbYAq8tY4Fi2pFu5_zdCcqc6M/view?usp=drivesdk
 
 ---
 *Este proyecto fue desarrollado con fines educativos para la asignatura de Desarrollo de Software para Dispositivos Móviles.*
