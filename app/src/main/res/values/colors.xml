@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Definición de la paleta de colores global de la aplicación -->
 
-    <!-- Colores de marca y énfasis -->
-    <color name="color_primary">#245B64</color>
-    <color name="color_primary_dark">#19434A</color>
+    <color name="color_primary">#001C41</color> <!-- Azul Oscuro (Logo) -->
+    <color name="color_primary_dark">#000E21</color>
     <color name="color_on_primary">#FFFFFF</color>
+    <color name="color_accent">#00D1FF</color> <!-- Celeste (Logo) -->
+    <color name="color_secondary">#F8B31C</color> <!-- Dorado AprendeApp -->
 
-    <!-- Fondos -->
-    <color name="color_background">#F7F8F6</color>
+    <color name="color_background">#F4F6F8</color>
     <color name="color_surface">#FFFFFF</color>
+    <color name="color_text_primary">#1A1C1E</color>
+    <color name="color_text_secondary">#44474E</color>
+    <color name="color_success">#2E7D32</color>
+    <color name="color_error">#B00020</color>
+    <color name="color_border">#D1D5DB</color>
 
-    <!-- Textos -->
-    <color name="color_text_primary">#202B2D</color>
-    <color name="color_text_secondary">#687477</color>
-
-    <!-- Estados -->
-    <color name="color_success">#287A58</color>
-    <color name="color_error">#B93838</color>
-    <color name="color_border">#E3E8E5</color>
-
+    <!-- Colores para Items de Recursos -->
+    <color name="white">#FFFFFF</color>
+    <color name="text_title">#1E293B</color>
+    <color name="text_description">#64748B</color>
+    <color name="divider_color">#10000000</color>
 </resources>
