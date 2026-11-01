@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgDetalle"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/ShapeAppearance.MaterialComponents.MediumComponent"
+            tools:src="@tools:sample/backgrounds/scenic" />
+
+        <TextView
+            android:id="@+id/txtDetalleTipo"
+            style="@style/TextAppearance.MaterialComponents.Overline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/color_primary"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:text="VIDEO" />
+
+        <TextView
+            android:id="@+id/txtDetalleTitulo"
+            style="@style/TextAppearance.MaterialComponents.Headline5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/color_text_primary"
+            android:textStyle="bold"
+            tools:text="Título del Recurso" />
+
+        <RatingBar
+            android:id="@+id/ratingDetalle"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:stepSize="0.1"
+            tools:rating="4.5" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="16dp"
+            android:background="#EEEEEE" />
+
+        <TextView
+            android:id="@+id/txtDetalleDesc"
+            style="@style/TextAppearance.MaterialComponents.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:textColor="@color/color_text_secondary"
+            tools:text="Esta es una descripción larga del recurso que puede ocupar varias líneas para probar el scroll del diálogo de detalles." />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
