@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Outer Circle (Cyan) -->
+    <path
+        android:fillColor="#00D1FF"
+        android:pathData="M100,10m90,90a90,90 0,1 1,-180 0a90,90 0,1 1,180 0" />
+
+    <!-- Inner Circle (Dark Blue) -->
+    <path
+        android:fillColor="#001C41"
+        android:pathData="M100,25m75,75a75,75 0,1 1,-150 0a75,75 0,1 1,150 0" />
+
+    <!-- Stylized 'A' for AprendeApp (Gold) -->
+    <path
+        android:fillColor="#F8B31C"
+        android:pathData="M100,50 L60,150 L85,150 L100,110 L115,150 L140,150 Z M100,75 L110,105 L90,105 Z" />
+
+</vector>
