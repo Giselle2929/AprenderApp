@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "302910387749",
+    "project_id": "aprenderapp-844c2",
+    "storage_bucket": "aprenderapp-844c2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302910387749:android:0cf43adde250a581a3b1cc",
+        "android_client_info": {
+          "package_name": "com.example.aprenderapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANSmyb1jE-Z2s-eVYgvSu48rkNt9cGDmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
