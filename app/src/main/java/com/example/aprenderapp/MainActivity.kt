@@ -2,10 +2,17 @@ package com.example.aprenderapp
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.aprenderapp.data.RetrofitClient
+import com.example.aprenderapp.model.Recurso
 import com.example.aprenderapp.view.LoginActivity
 import com.example.aprenderapp.view.RegistroActivity
 import com.google.android.material.button.MaterialButton
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 
 class MainActivity : AppCompatActivity() {
 
@@ -18,7 +25,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun configurarBotones() {
-
         val btnLogin = findViewById<MaterialButton>(
             R.id.btnWelcomeLogin
         )
@@ -39,7 +45,8 @@ class MainActivity : AppCompatActivity() {
     private fun abrirPantalla(
         destino: Class<out AppCompatActivity>
     ) {
-        val intent = Intent(this, destino)
-        startActivity(intent)
+        startActivity(Intent(this, destino))
     }
+
+
 }
